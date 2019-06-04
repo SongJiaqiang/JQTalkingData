@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'JQTalkingData_Example' do
+  pod 'JQTalkingData', :path => '../'
+
+  target 'JQTalkingData_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
