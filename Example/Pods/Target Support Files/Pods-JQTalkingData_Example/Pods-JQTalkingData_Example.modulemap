@@ -1,0 +1,6 @@
+framework module Pods_JQTalkingData_Example {
+  umbrella header "Pods-JQTalkingData_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

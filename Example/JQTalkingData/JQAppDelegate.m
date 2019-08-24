@@ -7,12 +7,15 @@
 //
 
 #import "JQAppDelegate.h"
+#import <JQTalkingData/JQTalkingData.h>
+
+#define TalkingDataKey @"28ED1C4880CC4144B0ED1EFD0E0DAF1E"
 
 @implementation JQAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [JQTalkingData sessionStarted:TalkingDataKey withChannelId:@"LocalTest"];
     return YES;
 }
 

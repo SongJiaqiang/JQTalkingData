@@ -1,0 +1,16 @@
+PODS:
+  - JQTalkingData (0.1.0)
+
+DEPENDENCIES:
+  - JQTalkingData (from `../`)
+
+EXTERNAL SOURCES:
+  JQTalkingData:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JQTalkingData: 4edc68a0c61a2c552668af7563ee51f3c47a6a92
+
+PODFILE CHECKSUM: 7c6a706152c35b2f194c14bc194e5852f59d1392
+
+COCOAPODS: 1.6.1

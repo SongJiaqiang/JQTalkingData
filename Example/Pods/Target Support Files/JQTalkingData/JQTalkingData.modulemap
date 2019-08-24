@@ -1,0 +1,6 @@
+framework module JQTalkingData {
+  umbrella header "JQTalkingData-umbrella.h"
+
+  export *
+  module * { export * }
+}

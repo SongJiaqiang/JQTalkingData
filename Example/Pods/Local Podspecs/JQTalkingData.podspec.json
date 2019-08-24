@@ -1,0 +1,37 @@
+{
+  "name": "JQTalkingData",
+  "version": "0.1.0",
+  "summary": "A short description of JQTalkingData.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Jarvis/JQTalkingData",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Jarvis": "sjq2150@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Jarvis/JQTalkingData.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JQTalkingData/Classes/**/*",
+  "vendored_libraries": "JQTalkingData/Libs/*.a",
+  "libraries": [
+    "z",
+    "c++"
+  ],
+  "frameworks": [
+    "AdSupport",
+    "CoreTelephony",
+    "Security",
+    "SystemConfiguration",
+    "CoreMotion"
+  ],
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-lObjC"
+  }
+}

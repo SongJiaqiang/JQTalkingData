@@ -38,5 +38,10 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
+  s.vendored_library = 'JQTalkingData/Libs/*.a'
+  s.libraries = 'z', 'c++'
+  s.frameworks = 'AdSupport', 'CoreTelephony', 'Security', 'SystemConfiguration'
+   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
+  
   # s.dependency 'AFNetworking', '~> 2.3'
 end
